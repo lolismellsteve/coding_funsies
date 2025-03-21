@@ -1,9 +1,14 @@
-# Problem: Write a function that takes a list of integers and returns a new list 
-# containing only the prime numbers from the original list.
+#what am i making? A program asks a user to either enter 1 or 2
+#if the user enters 1, it says Hello World 
+#If the user enters 2, it says Hello Universe
 
-# Example:
-# Input: [2, 3, 4, 5, 6, 7, 8, 9, 10]
-# Output: [2, 3, 5, 7]
+user_input = "Enter either a number 1 or 2"
+print(user_input)
+user_input = int(input())
 
-def function(blahblah):
-    while blahblah
+
+if user_input == 1:
+    print("Hello World")
+
+if user_input == 2:
+    print("Hello Universe")
